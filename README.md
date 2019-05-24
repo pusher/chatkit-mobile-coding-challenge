@@ -4,6 +4,8 @@ We would like you to write a component (or components) to model the state of a
 Chatkit Room, present that state to the developer, and incorporate changes to
 the state coming in from the backend as well as requested by the developer.
 
+This challenge is intended to take between 4 and 6 hours.
+
 ## Entities
 
 This is a description of the entities provided by the backend.
