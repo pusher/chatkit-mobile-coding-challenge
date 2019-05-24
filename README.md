@@ -188,3 +188,8 @@ single stream. However, when we begin to add features to support offline
 usage to the SDKs, this kind of state consistency management problem will
 return, and be much more difficult to avoid, so we think this is still a
 reasonably representative test.
+
+## Expectations
+
+It is expected that you will unit test your component(s), and use these tests
+to mock input arriving from the backends.
