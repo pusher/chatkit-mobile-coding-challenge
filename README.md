@@ -1,8 +1,10 @@
 # Chatkit mobile coding challenge
 
 We would like you to write a component (or components) to model the state of a
-Chatkit Room, present that state to the developer, and incorporate changes to
-the state coming in from the backend as well as requested by the developer.
+Chatkit Room, as might be done in a Chatkit SDK. That would involve taking
+the model exposed by the backend, refining it, presenting that state to the
+user of the SDK, and incorporating changes to the state coming in from the
+backend.
 
 This challenge is intended to take between 4 and 6 hours.
 
