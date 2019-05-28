@@ -86,8 +86,8 @@ Streams have two classes of events:
 - Initial state: when a connection is first made to the backend, the entire
   state for the entity is transmitted
 - Deltas: after the initial state is transmitted, changes to the state are
-  sent as individual events in real time, e.g. `user_added_to_room`, or
-  `cursor_updated`
+  sent as individual events in real time, e.g. `MemberAdded`, or
+  `CursorUpdated`
 
 Because your connection to the backend might be lost during a session, you
 must assume that an initial state event can actually arrive at any time, and
