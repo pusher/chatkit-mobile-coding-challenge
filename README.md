@@ -188,8 +188,15 @@ match the requirements, so we suggest that you begin not by coding, but by
 understanding the problem space and laying out the design of your solution,
 with some notes on why the design is a good one.
 
-A well thought design with an incomplete implementation will be judged better
-than a complete solution alone.
+**A well thought design with an incomplete implementation will be judged better
+than a complete solution alone.**
+
+Consider particularly:
+
+- The data model you will present to the user of the code
+- How you will structure your data internally in order to present a considtent
+  model of data to the user of the code, avoiding exposing confusing states
+- How you will communicate changes in your model to the end user
 
 ## Example session
 
